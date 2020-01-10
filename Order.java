@@ -5,7 +5,7 @@ public class Order{
 
     double salesTax = 0.08;
 
-    public Order(Item itoms[]){
+    public Order(Item items[]){
         // Define lists
     }
 
@@ -18,6 +18,6 @@ public class Order{
     }
 
     public static displayOrder(){
-        
+
     }
 }

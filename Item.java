@@ -1,9 +1,9 @@
 public class Item{
     String name;
     int sku;
-    int cost;
+    double cost;
 
-    public Item(String name, int sku, int cost){
+    public Item(String name, int sku, double cost){
         this.name = name;
         this.sku  = sku;
         this.cost = cost;
@@ -13,7 +13,7 @@ public class Item{
         this.name = name;
     }
 
-    public static void changeCost(int cost){
+    public static void changeCost(double cost){
         this.cost = cost;
     }
 
@@ -25,7 +25,7 @@ public class Item{
         return this.name;
     }
 
-    public static int getDollars(){
+    public static double getDollars(){
         return this.cost;
     }
 

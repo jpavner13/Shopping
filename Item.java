@@ -9,31 +9,31 @@ public class Item{
         this.cost = cost;
     }
 
-    public static void changeName(String name){
+    public void changeName(String name){
         this.name = name;
     }
 
-    public static void changeCost(double cost){
+    public void changeCost(double cost){
         this.cost = cost;
     }
 
-    public static void changesku(int sku){
+    public void changesku(int sku){
         this.sku = sku;
     }
 
-    public static String getName(){
+    public String getName(){
         return this.name;
     }
 
-    public static double getDollars(){
+    public double getDollars(){
         return this.cost;
     }
 
-    public static int getCents(){
-        return(this.cost * 100);
+    public int getCents(){
+        return( (int)(this.cost * 100) );
     }
 
-    public static int getsku(){
+    public int getsku(){
         return this.sku;
     }
 }

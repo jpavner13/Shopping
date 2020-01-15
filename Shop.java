@@ -1,7 +1,7 @@
 public class Shop{
     public static void main(String[] args){
         Item[] items = new Item[10];
-        Customer[] customers = new Customer[10];
+        Customer[] customer = new Customer[10];
 
         items[0] = new Item("Pigeon Head Pillow"            , 69693, 10.69);
         items[1] = new Item("Pigeon Head"                   , 35253, 100.69);
@@ -18,10 +18,6 @@ public class Shop{
         
         order1.displayOrder();
 
-        costomer[1] = new Customer("Little Timmy P.", "datboidabdab@yourmom.com", 4206969, this);
-
-        public Item[] getItems(){
-            return items;
-        }
+        customer[1] = new Customer("Little Timmy P.", "datboidabdab@yourmom.com", 4206969, items, 13579);
     }
 } 
